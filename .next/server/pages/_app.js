@@ -1,0 +1,1 @@
+(()=>{var e={};e.id=888,e.ids=[888],e.modules={141:()=>{throw Error("Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):\nError: unknown field `hashSalt`, expected `isReactServerLayer` or `enabled` at line 1 column 1309")}};var r=require("../webpack-runtime.js");r.C(e);var d=r(r.s=141);module.exports=d})();
