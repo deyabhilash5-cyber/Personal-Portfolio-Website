@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  background-color: #F7F5F0;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F7F5F0; }
+::-webkit-scrollbar-thumb { background: #C97D2B; border-radius: 3px; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  font-family: var(--font-body, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial);
+  color: #3D3D3D;
+}
+
+:root {
+  --color-canvas: #F7F5F0;
+  --color-ink: #1A1A2E;
+  --color-ink-soft: #2E3A59;
+  --color-amber: #C97D2B;
+  --color-amber-pale: #F4DFB8;
+}
+
+.focus-amber:focus { outline: 3px solid rgba(201,125,43,0.18); outline-offset: 2px; }
